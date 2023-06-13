@@ -1,5 +1,5 @@
 let fs = require("fs");
-let [nowTime, needTime] = fs.readFileSync("./index.txt").toString().split(" ");
+let [nowTime, needTime] = fs.readFileSync("index.txt").toString().split(" ");
 let [inputHour, inputMinute] = nowTime.split(" ");
 
 let nowHour = Number(inputHour);
